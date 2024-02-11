@@ -1,2 +1,2 @@
-export * from './guaya-logs-lib.module';
-export * from './guaya-logs-lib.service';
+export * from './yoyos-logs-lib.module';
+export * from './yoyos-logs-lib.service';

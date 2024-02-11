@@ -1,7 +1,7 @@
 import * as utils from './utils';
 import { WinstonModule } from 'nest-winston';
 import { Module, Logger } from '@nestjs/common';
-import { GuayaLogs } from './guaya-logs-lib.service';
+import { YoyosLogs } from './yoyos-logs-lib.service';
 
 @Module({
   imports: [
@@ -10,7 +10,7 @@ import { GuayaLogs } from './guaya-logs-lib.service';
       transports: [utils.winstonConsoleInfo()],
     }),
   ],
-  providers: [GuayaLogs, Logger],
-  exports: [GuayaLogs],
+  providers: [YoyosLogs, Logger],
+  exports: [YoyosLogs],
 })
-export class GuayaLogsModule {}
+export class YoyosLogsModule {}

@@ -7,7 +7,7 @@ export default {
     '/test/',
     'jest.config.ts',
     'src/index.ts',
-    'guaya-logs-lib.module.ts',
+    'yoyos-logs-lib.module.ts',
   ],
   testMatch: ['**/*.spec.ts'],
   coverageThreshold: {

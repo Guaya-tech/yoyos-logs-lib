@@ -2,7 +2,7 @@
   "extends": "tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "../../dist/libs/guaya-logs-lib"
+    "outDir": "../../dist/libs/yoyos-logs-lib"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test"]
