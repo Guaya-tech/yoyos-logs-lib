@@ -1,14 +1,11 @@
 {
-  "name": "@yoyosapp/yoyos-logs-lib",
-  "version": "1.0.3",
+  "name": "appyoyos-yoyos-logs-lib",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "url": "https://github.com/Guaya-tech/yoyos-logs-lib.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "nest build",
